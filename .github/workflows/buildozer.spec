@@ -1,21 +1,16 @@
+
 [app]
 title = Mi Alarma
 package.name = mialarma
 package.domain = org.example
 
 source.dir = .
-source.include_exts = py,png,jpg,kv,atlas,ttf,wav,mp3,ogg
+source.include_exts = py,png,jpg,kv,atlas,ttf
 
 version = 1.0
-requirements = python3,kivy
+requirements = python3,kivy==2.3.0
 
 orientation = portrait
-fullscreen = 0
 
 [buildozer]
 log_level = 2
-
-android.permissions = WAKE_LOCK,VIBRATE
-android.allow_background = True
-android.api = 33
-android.minapi = 21
